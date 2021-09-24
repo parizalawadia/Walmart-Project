@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [WalmartLoginTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="LoginTest(failed)">
+    <classes>
+      <class name="testlayer.tests">
+        <methods>
+          <include name="title"/>
+          <include name="close"/>
+          <include name="login"/>
+          <include name="initsetup"/>
+        </methods>
+      </class> <!-- testlayer.tests -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+</suite> <!-- Failed suite [WalmartLoginTestSuite] -->
