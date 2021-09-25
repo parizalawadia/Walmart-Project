@@ -2,10 +2,14 @@
 <suite name="WalmartTestSuite" parallel="tests">
 	<test name="LoginTest" allow-return-values="true">
 		<classes>
-			<!-- class name = "testlayer.tests"/> -->
-			<!-- class name = "testlayer.MyRecommendationTests"/> -->
-			<!-- class name="testlayer.MyAccountTabTests" /> -->
-			<class name="testlayer.MyListTabTests"/>
+			<class name = "testlayer.tests"/>
+			<class name = "testlayer.MyRecommendationTests"/>
+			<class name = "testlayer.MyAccountTabTests" />
+			<class name = "testlayer.MyListTabTests"/>
+			<class name = "testlayer.MyRegistriesTests"/>
+			<class name = "testlayer.MyAddressTabTests"/>
+			<class name = "testlayer.MyProfileTabTests"/>
+			<class name = "testlayer.SignOutTests"/>
 			<!-- class name= "testlayer.AccountCreationTests". url1 is associated 
 				for account creation. -->
 		</classes>

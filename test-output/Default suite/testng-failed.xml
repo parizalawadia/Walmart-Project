@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testlayer.MyAccountTabTests">
+      <class name="testlayer.SignOutTests">
         <methods>
-          <include name="noorder"/>
-          <include name="shopping"/>
+          <include name="signout"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testlayer.MyAccountTabTests -->
+      </class> <!-- testlayer.SignOutTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
